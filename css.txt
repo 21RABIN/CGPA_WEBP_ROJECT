@@ -1,0 +1,245 @@
+
+
+.showmenu
+{
+	display: none;
+	
+}
+
+.container
+{
+	border: 5px solid royalblue;
+	margin: 1%;
+	flex-direction: column`;
+}
+
+.menu 
+{
+	border: none;
+}
+
+label
+{
+	color: cyan;
+	background: black;
+}
+
+
+
+button:active
+{
+	color: orange;
+}
+body
+{
+
+}
+
+table,tr,th,td
+{
+	border: 1px solid black;
+	border-collapse:collapse ;
+	padding: 5px;
+	
+}
+table
+{
+	width: 100%;
+	text-align: center;
+}
+
+
+input[type='submit']
+{
+	width: 20%;
+	margin-left: 40%;
+	margin-top: 3%;
+	padding: 10px;
+	background: royalblue;
+	border-radius: 8%;
+	color: white;
+	transition: 1s;
+	transform: translatez(10px);
+}
+input[type='submit']:hover
+{
+   background: greenyellow;
+   color: black;
+}
+.buttons
+{
+	display: flex;
+	justify-content: center;
+	margin: 2%;
+}
+.buttons button
+{
+	margin-right: 8px;
+	background: orange;
+	padding: 5px;
+	cursor: pointer;
+	color: white;
+	border-radius:8%;
+}
+.buttons button:hover
+{
+	background: royalblue;
+}
+.buttons select
+{
+	cursor: pointer;
+	background: orange;
+	color: white;
+}
+.buttons select:hover
+{
+	background: royalblue;
+}
+.buttons option
+{
+	background: white;
+	color: black;
+}
+.sem 
+{
+	background: greenyellow;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.hed 
+{
+	
+	border: none;
+}
+.hed h1
+{
+	border-radius: 5%;
+}
+
+
+table
+{
+	background: greenyellow;
+	
+}
+
+
+.head
+{
+	background:  royalblue;
+	color: white;
+}
+
+.popup
+{
+	display: flex;
+	position: fixed;
+	margin: 0%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(0, 0, 0,0.6);
+	z-index: 1000;
+	
+}
+#displays
+{
+      border-radius: 20px;
+      text-align: center;
+      background: whitesmoke;
+      color: black;
+      padding: 5px;
+      margin-left:30% ;
+      width: 30%;
+      height: auto;
+}
+
+@media screen and (max-width:400px)
+{
+    #displays
+    {
+    	display: flex;
+    	place-items: center;
+    }
+
+}
+#title,#displayAVG
+{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+footer
+{
+	border: 1px solid black;
+	text-align: center;
+	color: white;
+	background: black;
+	margin-top: 5%;
+}
+
+
+/*-----------------------HOME PAGE Style----------------------------------------------------------------*/
+
+.contain
+{
+	background: greenyellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+}
+.home
+{
+	background: royalblue;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	
+
+}
+.home h4
+{
+    margin-left: 40%;
+}
+.navbar
+{
+	
+	margin-top: auto;
+	margin-left: 2%;
+	margin-bottom: 0;
+	
+}
+i 
+{
+	font-size: 30px;
+	color: orange;
+}
+.dept
+{
+  border: 1px solid black;
+  padding: 10px;
+}
+.dept a
+{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+
+}
+.menuu
+{
+	width: 50%;
+	background: white;
+	border: 1px solid black;
+	position: absolute;
+}
+
+
+
+

@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Style.css">
+      <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+
+<title>CSE 4th Sem Gpa Genrator</title>
+</head>
+<body>
+
+               <div class="popup">
+                <button type="submit" onclick="Closebtn()">CLOSE</button>
+                 <div id="displays">
+                <p id="title"></p>
+                <p id="display1"></p>
+                <p id="display2"></p>
+                <p id="display3"></p>
+                <p id="display4"></p>
+                <p id="display5"></p>
+                <p id="display6"></p>
+                <p id="display7"></p>
+                <p id="display8"></p>
+                <p id="displayAVG"></p>
+                  </div>
+               </div>
+               
+                 <table class="hed">
+                    <tr>
+                        <th colspan="5"> <h1>COMPUTER SCIENCE</h1></th>
+                    </tr></table>
+
+<div class="buttons">
+ 
+<button type="submit" onclick="toggleText()" id="creditbtn">View Credit</button>
+
+<select id="displaysem" onclick="displaysemester()">
+<option value="0">Select Sem</option>  
+<option value="1">Sem 1</option>
+<option value="2">Sem 1 to 2</option>
+<option value="3">Sem 1 to 3</option>
+<option value="4">Sem 1 to 4</option>
+<option value="5">Sem 1 to 5</option>
+<option value="6">Sem 1 to 6</option>
+<option value="7">Sem 1 to 7</option>
+<option value="8">Sem 1 to 8</option>
+</select>
+ 
+</div>
+
+
+
+             <!-- Semaster 1 -->
+
+         <div class="container1 container">
+
+                   
+
+                           <table>
+
+
+                                      <tr class="sem">
+                        <th colspan="5"><h3>Semaster1</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                          <th> Semaster</th>
+                          <th> Subject Code</th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                           <th> Grade</th>
+                                                     
+                         
+                      </tr>
+
+                      <tr>
+                          <td>01</td>
+                          <td> 191HS11</td>
+                          <td> Communicative English</td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec1c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td>01</td>
+                          <td>191HS12</td>
+                          <td> Calculus and Linear Algebra</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec1c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 01</td>
+                          <td>191HS13</td>
+                          <td>Engineering Physics</td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec1c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 01</td>
+                          <td> 191HS14</td>
+                          <td> Engineering Chemistry</td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec1c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 01</td>
+                          <td> 191EEF1 </td>
+                          <td>Basic Electrical and Electronics Engineering</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec1c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>01</td>
+                          <td>191MEF1</td>
+                          <td>Engineering Graphics</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec1c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr >
+                       
+                        <th colspan="4">Practical</th>
+                      </tr>
+                      <tr>
+                          <td> 01</td>
+                          <td>191HS17</td>
+                          <td>Physics and Chemistry Laboratory –I</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec1c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td>01</td>
+                          <td>191EEF7</td>
+                          <td>Basic Electrical and Electronics Laboratory</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec1c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                     
+               
+                </table>
+         </div>
+
+
+            <!-- Semaster 2 -->
+
+          <div class="container2 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster2</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                         <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                           <th> Grade</th>
+
+                      </tr>
+
+                      <tr>
+                          <td>02</td>
+                          <td>191HS21</td>
+                          <td> Technical English</td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec2c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td>02</td>
+                          <td> 191HS22</td>
+                          <td> Differential Equations and Numerical Methods</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec2c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 02</td>
+                          <td> 191HS23 </td>
+                          <td> Physics of Materials</td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec2c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>02</td>
+                          <td> 191HS24 </td>
+                          <td> Environmental Sciencetd</td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec2c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>02</td>
+                          <td> 191CSF1 </td>
+                          <td> Programming for Problem Solving </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec2c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 02</td>
+                          <td> 191MEF7 </td>
+                          <td> Mechanical Workshop </td>
+                          <td class="menu">3</td>
+
+                          <td> <select id="ec2c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 02</td>
+                          <td> 191HS27 </td>
+                          <td> Physics and Chemistry Laboratory – II</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec2c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td>02</td>
+                          <td> 191CSF7</td>
+                          <td> C Programming Laboratorytd</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec2c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                </table>            
+         </div>
+
+                  <!-- Semaster 3 -->
+
+     <div class="container3 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster3</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                         <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                          <th> Grade</th>
+
+
+
+                      </tr>
+
+                      <tr>
+                          <td>03</td>
+                          <td> 191HS31 </td>
+                          <td> Transforms and Discrete Mathematics</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec3c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td> 03</td>
+                          <td> 191BS31</td>
+                          <td> Biology for Engineers</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec3c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>03</td>
+                          <td> 191EC31 </td>
+                          <td> CIRCUITS AND ELECTRONIC DEVICES</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec3c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>03</td>
+                          <td> 191EC32 </td>
+                          <td>LINEAR INTEGRATED CIRCUITS</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec3c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>03</td>
+                          <td> 191EC33</td>
+                          <td> NETWORKS AND TRANSMISSION LINES</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec3c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 03</td>
+                          <td>191CS35 </td>
+                          <td> DATA STRUCTURES AND C++</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec3c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>03</td>
+                          <td> 191HS37</td>
+                          <td> Communication Skills – I </td>
+                          <td class="menu">0</td>
+                          <td> <select id="ec3c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td>03</td>
+                          <td> 191EC37</td>
+                          <td> CIRCUITS AND DEVICES LABORATORY </td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec3c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 03</td>
+                          <td> 191EC38</td>
+                          <td>LINEAR INTEGRATED CIRCUITS LABORATORY</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec3c9">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>                
+                </table>      
+                   
+         </div>
+
+                    <!-- Semaster 4 -->
+
+     <div class="container4 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster4</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                         <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                          <th> Grade</th>
+
+
+                      </tr>
+
+                      <tr>
+                          <td>04</td>
+                          <td> 191HS41</td>
+                          <td> PROBABILITY AND RANDOM PROCESSES</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec4c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td>04</td>
+                          <td> 191EC41</td>
+                          <td> ANALOG ELECTRONICS</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec4c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 04</td>
+                          <td> 191EC42 </td>
+                          <td>  SIGNALS AND SYSTEMS</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec4c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td> 191EC43</td>
+                          <td>DIGITAL SYSTEMS</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec4c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td>191EC44</td>
+                          <td>ELECTROMAGNETIC FIELDS AND WAVEGUIDES</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec4c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td> 191CS46 </td>
+                          <td> PYTHON PROGRAMMING</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec4c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td> 191EC47 </td>
+                          <td> ANALOG ELECTRONICS LABORATORY</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec4c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td> 04</td>
+                          <td>191HS47</td>
+                          <td> Communication Skills – II</td>
+                          <td class="menu">0</td>
+                          <td> <select id="ec4c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td> 191EC48 </td>
+                          <td> DIGITAL SYSTEMS LABORATORY</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec4c9">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td>191EC51</td>
+                          <td>ANALOG AND DIGITAL COMMUNICATION</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec4c10">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+               
+                </table>
+               
+                   
+                   
+         </div>
+
+
+
+
+                  <!-- Semaster 5 -->
+         <div class="container5 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster5</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                          <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                          <th> Grade</th>
+
+
+                      </tr>
+
+                      <tr>
+                          <td> 04</td>
+                          <td> 191EE42</td>
+                          <td>CONTROL SYSTEMS </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec5c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td>04</td>
+                          <td> 191EC52</td>
+                          <td> ANTENNAS AND MICROWAVE ENGINEERING</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec5c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>04</td>
+                          <td>191EC53 </td>
+                          <td> DIGITAL SIGNAL PROCESSING ANDA RCHITECTURE</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec5c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 04</td>
+                          <td> 191EC54 </td>
+                          <td> EMBEDDED SYSTEMS AND IOT</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec5c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 04</td>
+                          <td>191EC37</td>
+                          <td> COMMUNICATION SYSTEMS LABORATORY</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec5c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 04</td>
+                          <td> 191EC58 </td>
+                          <td>DSP AND PROCESSORS LABORATORY</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec5c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 04</td>
+                          <td> 191HS57</td>
+                          <td> Business English </td>
+                          <td class="menu">0</td>
+                          <td> <select id="css5c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td>04</td>
+                          <td> 191EC61</td>
+                          <td>WIRELESS COMMUNICATION</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec5c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 04</td>
+                          <td> 191EC62</td>
+                          <td> MACHINE LEARNING</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec5c9">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                </table>
+         </div>
+
+
+            <!-- Semaster 6 -->
+
+          <div class="container6 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster6</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                          <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                          <th> Grade</th>
+
+
+                      </tr>
+
+                      <tr>
+                          <td> 06</td>
+                          <td> 191EC63  </td>
+                          <td>DATA COMMUNICATION NETWORKS</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec6c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td>06</td>
+                          <td> 191EC64 </td>
+                          <td> VLSI DESIGN</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec6c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td>06 </td>
+                          <td>191EC67 </td>
+                          <td>MACHINE LEARNING LABORATORY</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec6c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 06</td>
+                          <td> 191EC68 </td>
+                          <td> NETWORKS LABORATORY </td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec6c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 06</td>
+                          <td>  191EC69</td>
+                          <td>MINI PROJECT</td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec6c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 06</td>
+                          <td>191HS67 </td>
+                          <td> CAREER ENGLISH</td>
+                          <td class="menu">0</td>
+                          <td> <select id="ec6c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 06</td>
+                          <td> 191EC71 </td>
+                          <td> ROBOTICS AND ARTIFICIAL INTELLIGENCE</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec6c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td> 06</td>
+                          <td>191EC72</td>
+                          <td>DIGITAL IMAGE PROCESSING</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec6c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 06</td>
+                          <td>191EC73  </td>
+                          <td> FIBER OPTIC COMMUNICATION AND NETWORKS</td>
+                          <td class="menu">4</td>
+                          <td> <select id="ec6c9">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 06</td>
+                          <td> 191EC77 </td>
+                          <td>ROBOTICS AND ARTIFICIAL INTELLIGENCE LABORATORY  </td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec6c10">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                          <tr>
+                          <td> 06</td>
+                          <td> 191EC78 </td>
+                          <td>DIGITAL IMAGE PROCESSING LABORATORY </td>
+                          <td class="menu">1</td>
+                          <td> <select id="ec6c11">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+               
+                </table>
+               
+                   
+                   
+         </div>
+
+                  <!-- Semaster 7 -->
+
+     <div class="container7 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster7</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                          <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                          <th> Grade</th>
+
+
+                      </tr>
+
+                      <tr>
+                          <td> 07</td>
+                          <td>191EC79</td>
+                          <td> PROJECT – I </td>
+                          <td class="menu">2</td>
+                          <td> <select id="ec7c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td> 07</td>
+                          <td> 191EC89 </td>
+                          <td> PROJECT– II </td>
+                          <td class="menu">6</td>
+                          <td> <select id="ec7c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07 </td>
+                          <td>191ECEA</td>
+                          <td> PROGRAMME ELECTIVESCMOS ANALOG IC DESIGN </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07 </td>
+                          <td> 191ECEB</td>
+                          <td> COGNITIVE RADIO </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c4">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07</td>
+                          <td>191ECEC</td>
+                          <td>CRYPTOGRAPHY AND NETWORK SECURITY </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c5">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07</td>
+                          <td>191ECED </td>
+                          <td>CYBER SECURITY</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c6">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07 </td>
+                          <td> 191ECEE </td>
+                          <td>EDGE COMPUTING </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c7">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                    <tr>
+                          <td> 07</td>
+                          <td> 191ECEF </td>
+                          <td> ELECTROMAGNETIC COMPATIBILITY</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ecc7c8">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07 </td>
+                          <td> 191ECEG </td>
+                          <td> ELECTRONIC PRODUCT DESIGN </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c9">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 07 </td>
+                          <td> 191ECEH</td>
+                          <td> LOW POWER SOC DESIGN</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec7c10">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+               
+                </table>      
+                   
+         </div>
+
+                    <!-- Semaster 8 -->
+
+     <div class="container8 container">
+                <table>
+                    <tr>
+                        <th colspan="5"  class="sem"><h3>Semaster8</h3></th>
+                    </tr>
+                      <tr class="head">
+
+                          <th> Semaster</th>
+                          <th> Subject Code </th>
+                          <th> Subject</th>
+                          <th class="menu">Credit</th>
+                          <th> Grade</th>
+
+                      </tr>
+
+                      <tr>
+                          <td> 08 </td>
+                          <td> 191ECEI </td>
+                          <td> MEMS AND NEMS</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec8c1">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+
+                      <tr>
+                          <td> 08 </td>
+                          <td>191ECEJ </td>
+                          <td> MOBILE ROBOTICS </td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec8c2">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                      <tr>
+                          <td> 08 </td>
+                          <td> 191ECEK </td>
+                          <td> MIXED SIGNAL IC DESIGN</td>
+                          <td class="menu">3</td>
+                          <td> <select id="ec8c3">
+                        <option value="0">Select grade</option>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U</option>
+                    </select></td>
+                      </tr>
+                     
+               
+                </table>
+               
+                   
+                   
+         </div>
+
+          <div class="inputbox">
+                    <input type="submit" name="" onclick="calculate()">
+                  </div>
+                  <div class="inputbox">
+                    <a href="UG-2019REGULATION.pdf">UG-2019REGULATION</a>
+
+                  </div>
+                    <div id="qrcode">
+                     
+                    </div>
+<footer>
+   
+<h3>@CopyRightAll Reserved</h3>
+
+</footer>
+
+<script type="text/javascript" src="Script.js"></script>
+
+</body>
+
+    <script type="text/javascript" src="Action.js"></script>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+
+	<title>QRcode Genrator</title>
+</head>
+<body>
+
+	<style type="text/css">
+		body
+		{
+			background: cyan;
+		}
+		.box
+		{
+			display: flex;
+			justify-content:center;
+			align-items: center;
+			flex-direction: column;
+		}
+.input
+{
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgreen;
+}
+.hed
+{
+	background: orange;
+	border: 1px solid;
+	padding: 4px;
+}
+.qrcode
+{
+	
+	text-align: center;
+	display: flex;
+	padding: 10px;
+}
+#qrcode
+{
+	background: wheat;
+	margin-left:20% ;
+}
+label
+{
+	font-weight: bold;
+}
+button
+{
+	background: orange;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 10%;
+	margin: 1%;
+	font-weight: bold;
+	
+}
+#dw
+{
+	display: none;
+	background: orange;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 2px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	
+}
+
+
+
+
+	</style>
+
+  <div class="box">
+  	<div class="btn">
+  		
+  		<select id="selectbatch">
+<option value="0">Select Batch</option>  
+<option value="20">2020-2024</option>
+<option value="21">2021-2025</option>
+<option value="22">2022-2026</option>
+
+</select>
+  		
+  		<select id="selectsem">
+<option value="0">Select Sem</option>  
+<option value="1">Sem 1</option>
+<option value="2">Sem 1</option>
+<option value="3">Sem 1</option>
+<option value="4">Sem 1 </option>
+<option value="5">Sem 1 </option>
+<option value="6">Sem 1 </option>
+<option value="7">Sem 1 </option>
+<option value="8">Sem 1 </option>
+</select>
+  	</div>
+
+<div class="hed">
+  			<h3>YOUR Result Genrate QR</h3>
+  		</div>
+  	<div class="input">
+  		
+  		  		<label>Enter Your Register Number</label><br><br>
+  		<input type="number" name="" placeholder="Enter RegNo" id="regno"><br>
+  		  		<div class="qrcode">
+  			<div id="qrcode">
+  				
+  			</div>
+  		</div>
+  		<a id="dw" onclick="downlod()" download>DownlodeQR</a>
+  		<button id="qr" onclick="genrateQR()">GenrateQR</button>
+
+  	</div>
+  	
+       
+
+  </div>
+<script type="text/javascript" src="Script.js"></script>
+<script type="text/javascript" src="Action.js"></script>
+<script type="text/javascript">
+	
+
+
+
+
+
+
+</script>
+</body>
+</html>

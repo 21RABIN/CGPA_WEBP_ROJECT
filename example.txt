@@ -1,0 +1,45 @@
+body
+{
+	background: magenta;
+}
+
+.container
+{
+	display: flex;
+	flex-wrap: nowrap;
+}
+form
+{
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+.inputbox
+{
+	border: 1px solid black;
+	padding: 10px;
+}
+input,label
+{
+	width: 5%;
+	margin-left: 5%;
+}
+input[type=submit]
+{
+	width: auto;
+}
+.head
+{
+	background: blue;
+	color: white;
+}
+.head label
+{
+	margin-left: 5%;
+
+}
+
+.head tr,th,td
+{
+	border: 1px solid black;
+}
